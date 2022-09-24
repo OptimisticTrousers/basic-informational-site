@@ -1,0 +1,24 @@
+{
+  "name": "basic-informational-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OptimisticTrousers/basic-informational-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OptimisticTrousers/basic-informational-site/issues"
+  },
+  "homepage": "https://github.com/OptimisticTrousers/basic-informational-site#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
