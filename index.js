@@ -18,6 +18,7 @@ const server = http.createServer(function (req, res) {
     if (err) {
       if (err.code === "ENOENT") {
         fs.readFile(path.join(__dirname, "404.html"), (err, content) => {
+          if (err) throw err;
           res.writeHead(200, { "Content-Type": contentType });
           res.end(content, "utf8");
         });
